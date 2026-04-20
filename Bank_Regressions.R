@@ -1,5 +1,5 @@
 library(readxl)
-mydata<-read_xlsx('TeressaS_averages.xlsx',col_names = TRUE)
+mydata<-read_xlsx('TeressaS_bank_data1(averages).xlsx',col_names = TRUE)
 colnames(mydata)
 names(mydata) 
 model1 <- lm(cbind (ll_provision, net_interest_margin, noninterest_income, noninterest_expense, ROA, ROE) ~ RGDP + prime_rate + year, data = mydata)
