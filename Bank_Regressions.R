@@ -1,4 +1,4 @@
-library(readxl)
+library(readr)
 mydata<-read_csv('TeressaS_bank_data1(averages).csv',col_names = TRUE)
 colnames(mydata)
 names(mydata) 
