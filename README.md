@@ -20,7 +20,7 @@ R code will be added soon
 ## limitations
 - full raw data could not be uploaded due to size constraints
 - aggregation reduces individual level variations
-- results reflect macro trends reather than micro trends
+- results reflect macro trends rather than micro trends
 ## Tools used
 - R
 - Excel
